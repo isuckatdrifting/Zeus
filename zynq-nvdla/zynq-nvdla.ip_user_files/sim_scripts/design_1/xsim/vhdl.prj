@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_apb_bridge_0_0/sim/design_1_axi_apb_bridge_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_proc_sys_reset_vcu_0_0/sim/design_1_proc_sys_reset_vcu_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_48ac_psr_aclk_0.vhd" \
+
+nosort

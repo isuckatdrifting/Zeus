@@ -6,7 +6,7 @@
 <Project Version="7" Minor="38" Path="/home/geralt/nvdla/Zynq-nvdla/zynq-nvdla/zynq-nvdla.tmp/nvdla_v1_0_project/nvdla_v1_0_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="5dadd5e850b342da9a5356613af89512"/>
+    <Option Name="Id" Val="fb75515ced884e8dbf67fb70fb06e594"/>
     <Option Name="Part" Val="xczu7ev-ffvc1156-2-e"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -61,6 +61,27 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/simulate_x_tick.vh">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_NVDLA_MCIF_define.vh">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_HWACC_NVDLA_tick_defines.vh">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/CKLNQD12.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -161,13 +182,6 @@
       </File>
       <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_NVDLA_CACC_dual_reg.v">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/simulate_x_tick.vh">
-        <FileInfo SFType="Verilog">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -812,13 +826,6 @@
       </File>
       <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_NVDLA_MCIF_READ_IG_cvt.v">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_NVDLA_MCIF_define.vh">
-        <FileInfo SFType="Verilog">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1519,13 +1526,6 @@
       </File>
       <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_NVDLA_mcif.v">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../ip_repo/nvdla_1.0/src/NV_HWACC_NVDLA_tick_defines.vh">
-        <FileInfo SFType="Verilog">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
